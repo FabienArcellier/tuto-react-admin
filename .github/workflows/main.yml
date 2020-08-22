@@ -18,6 +18,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: continuous integration process
+        run: npm install --dev
+        env:
+          CI: true
+
+      - name: continuous integration process
         run: npm run build
         env:
           CI: true
