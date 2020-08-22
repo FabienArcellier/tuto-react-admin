@@ -1,5 +1,7 @@
 # Tutorial React Admin
 
+![ci](https://github.com/FabienArcellier/tuto-react-admin/workflows/ci/badge.svg)
+
 I would recommand you to clone directly the react-admin repository. It contains the result
 of the tutorial. This one is just an implementation I have done for my own test. I stop the
 tutorial long before the end before I already have the insight I need.
